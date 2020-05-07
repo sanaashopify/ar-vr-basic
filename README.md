@@ -1,2 +1,9 @@
-# ar-vr-basic
-a basic scene using ar/vr components from aframe
+# experimenting with AR/VR
+⚡ a small project I'm making to learn how to use A-Frame
+
+# how it was made
+using A-Frame
+
+# timeline
+May 1st - ***Present***
+
