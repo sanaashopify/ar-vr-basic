@@ -5,5 +5,5 @@
 using A-Frame
 
 # timeline
-May 1st - ***Present***
+May 7th
 
