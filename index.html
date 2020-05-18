@@ -12,19 +12,22 @@
 
 <body>
   <a-scene>
-    <a-assets>
-      <img id="boxTexture"
-        src="https://lh3.googleusercontent.com/proxy/tGSHGeHzEUxb_-kOE6JHobfs0S2PdIdnVDlZtu3sks3__rHkcVC_W2Lo5gGWAuRKjYoFJoDeghn8qQjko2X4sLaDJkxEaZEnHGPs9tz9r8PbC3XrfQqjtSACaVoI" />
-      <!-- <img id="skyTexture" src="https://cdn.aframe.io/link-traversal/thumbs/sunrise.png" /> -->
+    <a-assets timeout="100">
+      <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
     </a-assets>
 
     <a-entity
-      environment="preset: tron; dressingAmount: 500; seed: 4; skyType: gradient; horizonColor: #e97a0d; flatShading: true; dressing: trees">
+      environment="preset: tron; seed: 4; skyType: gradient; horizonColor: #e97a0d; flatShading: true; dressing: trees; dressingAmount: 300">
     </a-entity>
-    <!-- <a-sky src="#skyTexture"></a-sky> old 360 sky view-->
+    <a-light type="ambient" color="#445451"></a-light>
 
-    <a-box src="#boxTexture" position="-4 1.25 -8" rotation="0 45 45" scale="2 2 2"></a-box>
+    <a-box src="#boxTexture" position="-4 1.25 -8" rotation="0 45 0" scale="2 2 2"
+      animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-box>
+
     <a-sphere position="0 2.25 -5" radius="1.0" color="#FFFFF"></a-sphere>
+
+    <a-box src="#boxTexture" position="4 1.25 -8" rotation="0 45 0" scale="2 2 2"
+      animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-box>
 
     <a-entity id="ocean" ocean="density: 20; width: 50; depth: 60; speed: 4"
       material="color: #9CE3F9; opacity: 0.55; metalness: 0; roughness: 1.2" rotation="-90 0 0"></a-entity>
