@@ -9,9 +9,9 @@ using A-Frame
 ## OR 
 1. ```git clone``` this repo 
 2. ```npm install```
-3. ```open ./index.html```
-4. drag and move around to see the 360 view
+3. ```budo --live --verbose --port 3000 --open``` in the terminal
+4. drag and move around to see the 360 view!
 
 # timeline
-May 7th
+May 7th - *PRESENT*
 
