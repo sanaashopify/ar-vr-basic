@@ -13,5 +13,5 @@ using A-Frame
 4. drag and move around to see the 360 view!
 
 # timeline
-May 7th - *PRESENT*
+May 7th
 
