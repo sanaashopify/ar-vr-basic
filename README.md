@@ -5,7 +5,7 @@ a small project I'm making to learn how to use A-Frame
 using A-Frame
 
 # how to run it
-[check out this link to see it on your browser!](https://vivacious-rogue-fridge.glitch.me/)
+[check out this link to see it on your browser!](https://sanaa-basic-scene.glitch.me)
 ## OR 
 1. ```git clone``` this repo 
 2. ```npm install```
