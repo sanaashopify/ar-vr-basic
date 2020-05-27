@@ -9,7 +9,7 @@ using A-Frame
 ## OR 
 1. ```git clone``` this repo 
 2. ```npm install```
-3. ```budo --live --verbose --port 3000 --open``` in the terminal
+3. ```npm start``` in the terminal
 4. drag and move around to see the 360 view!
 
 # timeline
